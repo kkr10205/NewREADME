@@ -23,3 +23,10 @@ done
 - Then we unzip the zip file using unzip command
 - After that we use cat command to display the unziped log file
 - Then using $1 we display the result for commnad line argument
+#### Process to create and run the above script
+- At first we create a log file
+- After that using Zip command we ziped the  log file 
+- Create a .sh extention file using vi editor
+- Then write the shell script code
+- Then we have to change the execution permission of the .sh file by using chmod command
+- Then we have to run the script using ./filename.sh
