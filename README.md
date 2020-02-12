@@ -22,4 +22,4 @@ done
 - Inside for loop we first remove the log file which is already exist outside the zip file using rm command
 - Then we unzip the zip file using unzip command
 - After that we use cat command to display the unziped log file
--Then using $1 we display the result for commnad line argument
+- Then using $1 we display the result for commnad line argument
