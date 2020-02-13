@@ -3,10 +3,12 @@
 >Blockquote
 ```
 #!/bin/bash
-for i in *zip
+zipfile=$(ls *zip)
+logfile=$(ls *log)
+for i in $zipfile
 do
 echo "removing already exists log file" 
-rm *log
+rm $logfile
 echo "unzip the zip file"
 unzip $i
 echo ".............................."
